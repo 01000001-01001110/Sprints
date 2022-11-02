@@ -1,15 +1,3 @@
-<#
-
-Sprint Planning Layout Script
-
-The idea is to template the sprint plan and notes generation so I do not have to manually format/type everything. 
-The script requires that you enter -Days for the amount of days the sprint is going to run. 
-The script requires that you enter -Name for the specific sprint name when running. 
-If Days To Work equal 5 (Saturday) Then Skip To Monday (7) Assuming all sprints will be no longer than two weeks.
-I have modified a GUI box to also support this request so it's a bit more friendly. 
-
-Example: Create-Sprint
-#> 
 function Create-Sprint {
     Add-Type -AssemblyName System.Windows.Forms
     Add-Type -AssemblyName System.Drawing
@@ -101,4 +89,5 @@ Note:
 --------------------------------------------------------------------------------------------`n"
             }
         }
+        Code $Path
 }
