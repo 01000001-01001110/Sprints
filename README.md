@@ -9,6 +9,7 @@ Automatons to help me with notes and the like
 
 I have added the following variables to the sprint_Notes.ps1 to make it easier to format to your liking.
 
+<pre>
 $MainFG = "Azure"
 $MainBG = "Transparent"
 $ButtonBG = "Navy"
@@ -22,6 +23,7 @@ $MainFontSZ = "14"
 $ToolBG = "Transparent"
 $MainWindowHeight = "265"
 $MainWindowWidth = "254"
+</pre>
 
 # sprint_Notes.ps1: 
 ![image](https://user-images.githubusercontent.com/48245017/202790663-997274e9-8b9c-497c-a1b3-de122c0bae2a.png)
